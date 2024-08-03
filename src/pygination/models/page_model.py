@@ -17,3 +17,4 @@ class PageModel(BaseModel, Generic[T]):
     class Config:
         arbitrary_types_allowed = True
         orm_mode = True
+        from_attributes = True
